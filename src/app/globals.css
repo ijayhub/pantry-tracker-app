@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Pinyon+Script&family=Tangerine:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .....................navbar.................. */
+.nav-container{
+  @apply shadow-lg p-3  
+}
+.nav{
+  @apply flex justify-between items-center max-w-5xl mx-auto ;
+}
+
+.nav-header{
+  @apply text-2xl lg:text-5xl font-bold text-orange-700;
+  font-family: 'Tangerine', cursive
+}
+.nav-list{
+  @apply ml-3 font-bold cursor-pointer active:border-b-2 border-black text-orange-500;
+}
+.nav-btn{
+  @apply bg-orange-700 text-white p-2 rounded-md
+}
+/* ..................hero..... */
+.hero{
+  background-image:url('/img/pantry-hero.jpg');
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:400px;
+  width:100%;
+  box-shadow: 5px 5px 5px rgba(0,0,0);
+
+}
+.overlay{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  background-color: rgba(21, 1, 0, 0.3);
+  height:400px;
+}
+.hero-text{
+  font-family: 'Tangerine', cursive;
+  @apply text-white text-4xl lg:text-5xl mb-3
+}
+.hero-para{
+  @apply mb-3 text-slate-200
+}
+/* .............input................. */
+.input-container{
+  @apply flex flex-col justify-center items-center mb-3;
+}
+.input{
+  width:250%;
+  @apply p-1 rounded-md outline-none
+}
+.btn-input{
+  @apply bg-orange-700 text-white p-2 rounded-md mt-3;
+}
+/* ..................template.................... */
+.TemplateHeading{
+  @apply text-2xl lg:text-4xl font-semibold mt-6 mb-4 text-center text-orange-700;
+  font-family: 'Pinyon Script', cursive;
+}
+.templateBtn1{
+  @apply bg-slate-500 text-white rounded px-2 py-1 mr-2 flex items-center
+}
+.templateBtn2{
+  @apply bg-red-700 text-white rounded px-2 py-1 flex items-center
+}
+/* ..........................form.................. */
+.formContainer{
+  @apply space-y-4 p-4 bg-white rounded shadow-md
+}
+.formInput{
+  @apply mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm
+}
+.formLabel{
+  @apply block text-sm font-medium text-gray-700
+}
+.pantryheading{
+  @apply text-orange-700 font-bold text-3xl lg:text-5xl py-4 text-center;
+  font-family: 'Tangerine', cursive;
+}
+.pantryBtn{
+  @apply w-full inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-orange-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
+}
+.pantryArrow{
+  @apply p-1 bg-black text-white rounded-lg mt-3 ml-3 flex items-center
+}
+
+/* ....................footer.................. */
+.footer{
+  @apply bg-orange-500 text-white py-8;
+}
+
+.footer-head{
+    @apply text-3xl lg:text-5xl font-bold text-white;
+  font-family: 'Tangerine', cursive
+}
+ /* .......................resoponsiveness */
+@media only screen and (max-width: 768px){
+  .nav-list, .hero-para,  .btn-input, .nav-btn, .pantryArrow{
+    font-size:13px;
+  }
+  .input{
+    width:120%;
+  }
+}
