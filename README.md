@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div id="top"></div>
+<div align="center">
+    <img src="./public/img/app.gif">
+</div>
 
-## Getting Started
+# Pantry Tracker Website
 
-First, run the development server:
+## Table of Contents
+<details>
+  <summary>Table of Contents </summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#key-features">Key Features</a></li>
+        </ul>
+    </li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#available-scripts">Available Scripts</a></li>
+  </ol>
+</details>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## About The Project
+Pantrify: Simplify Your Pantry Management App | Add, Edit, Delete, and Search Items
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Your ultimate pantry management solution. 
+    
+### Key Features
+- Page Navigation: The ability to navigate between pages seamlessly.
+- Add new pantry items easily.</li>
+- Delete items you no longer need.
+- Edit existing items for accurate tracking.
+- Search for items quickly to find what you need.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+* [Repo Codes](https://github.com/ijayhub/pantry-tracker-app)
+* [Hosted Link](https://pantry-tracker-app-delta.vercel.app/)
 
-## Learn More
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-To learn more about Next.js, take a look at the following resources:
+### Built With
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Firebase Console](https://firebase.google.com/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Deploy on Vercel
+### Getting Started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To get a local copy up and running, follow these simple steps:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Available Scripts
+
+In the project directory, you can run:
+
+`npm run dev`
+
+Runs the app in the development mode.
+
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.
+
+You may also see any lint errors in the console.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+
+
