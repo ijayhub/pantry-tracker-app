@@ -1,7 +1,5 @@
 <div id="top"></div>
-<div align="center">
-    <img src="./public/img/app.gif">
-</div>
+
 
 # Pantry Tracker Website
 
